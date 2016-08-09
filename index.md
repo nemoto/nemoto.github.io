@@ -1,8 +1,14 @@
 ---
 layout: default
+title: Create static pages with github pages and jekyll.
 ---
 
-## TOP
+# Create static pages with github pages and jekyll.
 
+### hoge
 * foo
-  * var
+  * foo
+
+
+<!-- IMG ![HERE]({{site.baseurl}}/images/201608/profile_nemo_2.jpg). -->
+
