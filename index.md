@@ -1,8 +1,4 @@
 ---
 layout: default
+title: Nemorandum
 ---
-
-## TOP
-
-* foo
-  * var
