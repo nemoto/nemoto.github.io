@@ -1,0 +1,4 @@
+.tmp
+.tmp/*
+_site
+_site/*
