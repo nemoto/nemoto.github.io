@@ -1,11 +1,4 @@
 auto: true
 server: true
 markdown: kramdown
-gems:
-  - jemoji
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-paginate: 3
+excerpt_separator: <!--more-->

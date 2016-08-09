@@ -2,3 +2,12 @@ img {
     max-width: 100%;
     border: 1px solid #eee;
 }
+
+div.more {
+    width: 50px;
+    margin-left: auto;
+}
+div.more a {
+    width: 100px;
+    margin-left: auto;
+}

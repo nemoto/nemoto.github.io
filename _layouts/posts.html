@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Nemorandum</title>
+    <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/github-light.css">
@@ -28,14 +28,8 @@
         <p class="view"><a href="https://github.com/nemo-soshi-mulodo" target="_blank">View My GitHub Profile</a></p>
       </header>
       <section>
-        {% for post in site.posts %}
-        {% if post.excerpt %}
-        {{ post.date | date: '%Y/%m/%d' }} 
-        {{ post.excerpt }}
-        <div class="more"><a href="{{ post.url }}">more</a></div>
-        <hr />
-        {% endif %}
-        {% endfor %}
+        {{ page.date | date: '%Y/%m/%d' }}
+        {{ content }}
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
